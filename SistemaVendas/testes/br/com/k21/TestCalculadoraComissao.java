@@ -25,8 +25,7 @@ public class TestCalculadoraComissao {
 
 		assertEquals(esperado, comissao, 0);
 	}
-	
-	@Test
+
 	public void teste_calculo_comissao_venda_10001_retorna_600ponto06() {
 		double venda = 10001;
 		double esperado = 600.06;
